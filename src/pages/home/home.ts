@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { TranslateService, TranslatePipe } from 'ng2-translate/ng2-translate'
 
 @Component({
   selector: 'page-home',
@@ -10,7 +11,8 @@ export class HomePage {
   idioms: any[] = [];
 
   constructor(
-    private navCtrl: NavController
+    private navCtrl: NavController,
+    private translateService: TranslateService
   ) {
     this.idioms = [
       {
@@ -29,6 +31,6 @@ export class HomePage {
   }
 
   choose(lang) {
-    //this.translate.use(lang);
+    this.translateService.use(lang);
   }
 }
