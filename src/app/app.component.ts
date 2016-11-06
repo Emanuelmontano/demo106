@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Platform } from 'ionic-angular';
 import { StatusBar } from 'ionic-native';
-import { TranslateService } from 'ng2-translate/ng2-translate'
+import { TranslateService } from 'ng2-translate'
 
 import { HomePage } from '../pages/home/home';
 
