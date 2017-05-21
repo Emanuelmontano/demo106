@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
-import { TranslateService } from 'ng2-translate/ng2-translate'
+import { IonicPage, NavController } from 'ionic-angular';
+import { TranslateService } from '@ngx-translate/core'
 
+@IonicPage()
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
