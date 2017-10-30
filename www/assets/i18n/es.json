@@ -1,5 +1,0 @@
-{
-  "HELLO": "Hola",
-  "WELCOME": "Bienvenido",
-  "GREETING": "Hola, {{ value }}"
-}
